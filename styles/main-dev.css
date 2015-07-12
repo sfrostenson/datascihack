@@ -1,20 +1,27 @@
 body {
 	position: relative;
-	font-family: 'Helvetica Neue';
+	font-family: georgia,"times new roman",times,serif;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
+.headline {
+	font-size: 2.125rem;
+    line-height: 2.375rem;
+    font-weight: 700;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    font-style: italic;
+}
+.byline {
+    font-size: 0.6875rem;
+    line-height: 0.75rem;
+    font-weight: 700;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
 .article-page {
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
 	padding: 20px;
-/*	padding: 10px;*/
-/*	margin-right: 50%;*/
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    font-weight: 400;
 }
-
-/*.byline {
-
-}*/
