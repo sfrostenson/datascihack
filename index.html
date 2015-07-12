@@ -9,10 +9,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--     <meta property="fb:app_id" content="123456789" />
-    <meta property="og:url" content="http://www.nytimes.com/2015/07/12/world/europe/selfie-vacation-damage-majorca-paris-ibiza-rome.html?smid=nytnow-share&smprod=nytnow&_r=1" />    --> 
+    <meta property="fb:app_id" content="123456789" />
+<!--     <meta property="og:url" content="http://www.nytimes.com/2015/07/12/world/europe/selfie-vacation-damage-majorca-paris-ibiza-rome.html?smid=nytnow-share&smprod=nytnow&_r=1" />     -->
     <!-- STYLE SHEET -->
-    <link rel="stylesheet" href="styles/selection-sharer.css" />
+    <link rel="stylesheet" type="text/css" href="styles/selection-sharer.css" />
+    <link rel="stylesheet" type="text/css" href="styles/highlighter.css" />
     <link rel="stylesheet" type="text/css" href="styles/main-dev.css" />
 </head>
 
@@ -70,8 +71,9 @@
 	</div> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/selection-sharer.js"></script>
+<script type="text/javascript" src="js/highlighter.js"></script>
 <script>
 $('p').selectionSharer();
-// console.log($('p').selectionSharer());
+$('.article').highlighter();
 </script>
 </body>
