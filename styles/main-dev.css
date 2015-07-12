@@ -18,6 +18,12 @@ body {
 .navigation img {
 	width: 100%;
 	height: auto;
+	padding-right: 20px;
+	float: center;
+}
+.tourists {
+	padding-bottom: 10px;
+	padding-top: 10px; 
 }
 .hardcode-highlight {
 	background:rgba(255,160,122,0.5);
@@ -29,7 +35,6 @@ body {
 }
 .top-highlights, .top-friend-highlights {
 	margin-top: 10px;
-/*	font-family: 'Helvetica Neue',sans-serif;*/
 	border: 1px solid #ccc;
 	border-radius: 8px;
 	background-color: #fff;
@@ -46,8 +51,8 @@ body {
 }
 .article-page {
 	float:left;
-    font-size: 1rem;
-    line-height: 1.4375rem;
+    font-size: 14px;
+    line-height: 25px;
     font-weight: 400;
     width: 50%;
 }
@@ -59,12 +64,13 @@ body {
     font-style: italic;
 }
 .byline {
-    font-size: 0.6875rem;
+    font-size: 11px;
     line-height: 0.75rem;
     font-weight: 700;
     font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
 }
 .right-rail {
+	margin-top: 10px;
 	margin-left: 25%;
 	position: fixed;
 }
